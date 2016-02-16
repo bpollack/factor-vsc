@@ -13,14 +13,13 @@
     "contributes": {
         "languages": [{
             "id": "factor",
-            "aliases": ["Factor", "factor"],
-            "extensions": [".factor"],
-            "configuration": "./factor.configuration.json"
+            "aliases": ["Factor"],
+            "extensions": [".factor"]
         }],
         "grammars": [{
             "language": "factor",
             "scopeName": "source.factor",
-            "path": "./syntaxes/factor.tmLanguage"
+            "path": "./syntaxes/factor.json"
         }]
     }
 }
