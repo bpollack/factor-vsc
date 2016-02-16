@@ -8,7 +8,8 @@
         "vscode": "^0.10.6"
     },
     "categories": [
-        "Languages"
+        "Languages",
+        "Snippets"
     ],
     "contributes": {
         "languages": [{
@@ -20,6 +21,10 @@
             "language": "factor",
             "scopeName": "source.factor",
             "path": "./syntaxes/factor.json"
+        }],
+        "snippets": [{
+            "language": "factor",
+            "path": "./snippets/factor.json"
         }]
     }
 }
