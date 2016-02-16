@@ -1,26 +1,26 @@
 {
-	"name": "factor",
-	"displayName": "factor",
-	"description": "Factor language support",
-	"version": "0.0.1",
-	"publisher": "bitquabit",
-	"engines": {
-		"vscode": "^0.10.6"
-	},
-	"categories": [
-		"Languages"
-	],
-	"contributes": {
-		"languages": [{
-			"id": "factor",
-			"aliases": ["Factor", "factor"],
-			"extensions": [".factor"],
-			"configuration": "./factor.configuration.json"
-		}],
-		"grammars": [{
-			"language": "factor",
-			"scopeName": "source.factor",
-			"path": "./syntaxes/factor.tmLanguage"
-		}]
-	}
+    "name": "factor",
+    "displayName": "factor",
+    "description": "Factor language support",
+    "version": "0.0.1",
+    "publisher": "bitquabit",
+    "engines": {
+        "vscode": "^0.10.6"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "factor",
+            "aliases": ["Factor", "factor"],
+            "extensions": [".factor"],
+            "configuration": "./factor.configuration.json"
+        }],
+        "grammars": [{
+            "language": "factor",
+            "scopeName": "source.factor",
+            "path": "./syntaxes/factor.tmLanguage"
+        }]
+    }
 }
